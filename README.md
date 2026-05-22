@@ -232,6 +232,16 @@ After copying `prompt.md` (for Amp) or `CLAUDE.md` (for Claude Code) to your pro
 
 Ralph automatically archives previous runs when you start a new feature (different `branchName`). Archives are saved to `archive/YYYY-MM-DD-feature-name/`.
 
+## Roadmap
+
+- [ ] Add support for more AI coding tools (Cursor, Copilot)
+- [ ] Integration with project management tools (Linear, Jira)
+- [ ] Web dashboard for monitoring Ralph iterations
+- [ ] Plugin system for custom quality checks
+- [ ] Telemetry and analytics for PRD completion metrics
+- [ ] Team collaboration features (shared archives, learning repos)
+- [ ] VS Code extension for running Ralph inside the editor
+
 ## References
 
 - [Geoffrey Huntley's Ralph article](https://ghuntley.com/ralph/)
