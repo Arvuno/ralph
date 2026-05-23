@@ -8,6 +8,43 @@ Based on [Geoffrey Huntley's Ralph pattern](https://ghuntley.com/ralph/).
 
 [Read my in-depth article on how I use Ralph](https://x.com/ryancarson/status/2008548371712135632)
 
+## Getting Started
+
+### Clone the repo
+
+```bash
+git clone https://github.com/snarktank/ralph.git
+cd ralph
+```
+
+### Run the flowchart dev server (optional, for visualization)
+
+```bash
+cd flowchart
+npm install
+npm run dev
+```
+
+### Run Ralph
+
+```bash
+./ralph.sh [max_iterations]          # Uses Amp (default)
+./ralph.sh --tool claude [max_iterations]  # Uses Claude Code
+```
+
+### Create your PRD
+
+```bash
+# Start with a fresh PRD
+/prd
+
+# Or convert an existing PRD
+/convert-prd
+
+# Save progress
+/progress
+```
+
 ## Prerequisites
 
 - One of the following AI coding tools installed and authenticated:
