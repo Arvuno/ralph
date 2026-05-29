@@ -240,3 +240,6 @@ Ralph automatically archives previous runs when you start a new feature (differe
 
 ## Contributing
 PRs welcome!
+
+<!-- Contributor: Arvuno - documentation update -->
+
